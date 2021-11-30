@@ -11,7 +11,7 @@ const init = async () => {
 		// Go through each item in the list and repeat the character n times
 		let output = "";
 		for (const [char, amount] of line) {
-			output += Array(amount).fill().reduce((acc) => acc += char, "");
+			output += char.repeat(amount);
 		}
 		console.log(output);
 	}
