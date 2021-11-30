@@ -1,0 +1,14 @@
+{
+  "name": "python-challenge",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "@types/cheerio": "^0.22.30",
+    "@types/node": "^16.11.11",
+    "axios": "^0.24.0",
+    "cheerio": "^1.0.0-rc.10",
+    "jpickle": "^0.4.1"
+  }
+}
