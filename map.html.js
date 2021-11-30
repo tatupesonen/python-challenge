@@ -3,7 +3,7 @@ g fmnc wms bgblr rpylqjyrc gr zw fylb. rfyrq ufyr amknsrcpq ypc dmp.
 bmgle gr gl zw fylb gq glcddgagclr ylb rfyr'q ufw rfgq rcvr gq qm jmle.
 sqgle qrpgle.kyicrpylq() gq pcamkkclbcb. lmu ynnjw ml rfc spj.`
 
-const PERKELE = {
+const inefficient_stuffs = {
 	"a": "c",
 	"b": "d",
 	"c": "e",
@@ -33,8 +33,10 @@ const PERKELE = {
 	"'": "'",
 }
 
+// I had a caesar cipher impl here but my friend wanted to see the alternative way
+
 const ROT2 = (str) => {
-	const decoded = [...str].map(character => PERKELE[character]).join("");
+	const decoded = [...str].map(character => inefficient_stuffs[character]).join("");
 	return decoded;
 }
 

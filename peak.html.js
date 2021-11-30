@@ -1,6 +1,6 @@
-const fs = require('fs/promises');
-const axios = require("axios");
-const jpickle = require('jpickle');
+import fs from "fs/promises"
+import axios from "axios";
+import jpickle from "jpickle";
 
 
 const init = async () => {

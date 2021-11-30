@@ -1,7 +1,6 @@
-const fs = require('fs/promises');
-const cheerio = require("cheerio");
-const axios = require("axios");
-
+import fs from "fs/promises";
+import cheerio from "cheerio";
+import axios from "axios";
 
 const init = async () => {
 	// Load the initial website

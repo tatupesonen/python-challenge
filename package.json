@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
     "@types/axios": "^0.14.0",
     "@types/cheerio": "^0.22.30",
     "@types/node": "^16.11.11",
+    "@zip.js/zip.js": "^2.3.19",
     "axios": "^0.24.0",
     "cheerio": "^1.0.0-rc.10",
-    "jpickle": "^0.4.1"
+    "jpickle": "^0.4.1",
+    "jszip": "^3.7.1"
   }
 }
